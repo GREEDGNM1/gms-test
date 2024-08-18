@@ -1,0 +1,27 @@
+[
+    {
+        "titulo": "Matrix",
+        "ano": 2000,
+        "descricao": "Matrix é um filme de ficção..."
+    },
+    {
+        "titulo": "Batman",
+        "ano": 1994,
+        "descricao": "Batma é um filme de ação..."
+    },
+    {
+        "titulo": "Barbie",
+        "ano": 2023,
+        "descricao": "Matrix é um filme de ficção..."
+    },
+    {
+        "titulo": "The Lord of the Rings",
+        "ano": 2005,
+        "descricao": "Matrix é um filme de ficção..."
+    },
+    {
+        "titulo": "Inception",
+        "ano": 2010,
+        "descricao": "Matrix é um filme de ficção..."
+    }
+]
