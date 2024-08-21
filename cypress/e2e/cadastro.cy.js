@@ -23,7 +23,7 @@ describe('US-012-Funcionalidade: Cadastro de membros', () => {
     cy.get('#signup-response').should('contain', 'Nome deve conter apenas caracteres alfabéticos, acentuados e espaços')
   })
   
-  it('Deve fazer bloquear e-mail já cadastrado', () => {
+  it('Deve bloquear e-mail já cadastrado', () => {
     var email = `teste${Date.now()}@teste.com`
     cy.preencherCadastro('Teste','Souza', 'gledson2@teste.com', '1122334477', 'Teste@3030')
     cy.get('#signup-response').should('contain', 'Este email já está cadastrado.')

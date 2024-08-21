@@ -1,27 +1,27 @@
 [
     {
         "titulo": "Matrix",
-        "ano": 2000,
-        "descricao": "Matrix é um filme de ficção..."
+        "ano": 1999,
+        "descricao": "Matrix é um filme de ficção científica que explora a natureza da realidade."
     },
     {
         "titulo": "Batman",
-        "ano": 1994,
-        "descricao": "Batma é um filme de ação..."
+        "ano": 1989,
+        "descricao": "Batman é um filme de ação sobre o herói mascarado que protege Gotham City."
     },
     {
         "titulo": "Barbie",
         "ano": 2023,
-        "descricao": "Matrix é um filme de ficção..."
+        "descricao": "Barbie é um filme de comédia e fantasia sobre a famosa boneca."
     },
     {
         "titulo": "The Lord of the Rings",
-        "ano": 2005,
-        "descricao": "Matrix é um filme de ficção..."
+        "ano": 2001,
+        "descricao": "The Lord of the Rings é uma épica trilogia de fantasia baseada nas obras de J.R.R. Tolkien."
     },
     {
         "titulo": "Inception",
         "ano": 2010,
-        "descricao": "Matrix é um filme de ficção..."
+        "descricao": "Inception é um filme de ficção científica e suspense sobre a manipulação de sonhos."
     }
 ]
