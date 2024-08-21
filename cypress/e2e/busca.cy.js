@@ -3,7 +3,11 @@
 describe('US-001 Funcionalidade: Busca de filmes', () => {
   beforeEach(() => {
     cy.visit('/')
-  })
+  });
+
+  // afterEach(() => {
+  //   cy.screenshot()
+  // });
 
   it('Deve buscar filmes com sucesso', () => {
     cy.get('#search-input').type('Mad Max')
@@ -19,7 +23,7 @@ describe('US-001 Funcionalidade: Busca de filmes', () => {
     })
   })
 
-  it.only('Deve buscar filmes da lista inteira com sucesso', () => {
+  it('Deve buscar filmes da lista inteira com sucesso', () => {
     cy.fixture('filmes').each((filmes) => {
       cy.get('#search-input').clear().type(filmes.titulo)
       cy.get('#search-button').click()
